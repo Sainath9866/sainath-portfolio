@@ -31,10 +31,10 @@ export default function ContactMe() {
             </h2>
             <div className="h-1 w-48 bg-sky-400 mx-auto rounded mb-6" />
             <p className="text-gray-200 text-lg mb-2">
-                Have a project in mind? I&apos;d love to hear from you!
+                If you are dreaming up something awesome,
             </p>
             <p className="text-gray-200 text-lg mb-8">
-                Reach out to me, and let&apos;s turn your ideas into reality.
+             I am here to help you build it from the ground up.
             </p>
 
             <div className="flex flex-col gap-4">

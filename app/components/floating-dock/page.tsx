@@ -55,8 +55,8 @@ function FloatingDockDemo() {
     },
   ];
   return (
-    <div className="fixed bottom-0 left-0 right-0 flex items-center justify-center w-full pb-6 z-50">
-      <div className="bg-black/90 backdrop-blur-sm rounded-full border-2  shadow-2xl px-4 py-2 ">
+    <div className="fixed bottom-0 left-0 right-0 flex items-center justify-end md:justify-center w-full pb-4 md:pb-6 z-50 px-4 md:px-0">
+      <div className="bg-black/90 backdrop-blur-sm rounded-full border-2 border-white-5 shadow-2xl px-3 py-2 md:px-4 md:py-2">
         <FloatingDock items={links} />
       </div>
     </div>

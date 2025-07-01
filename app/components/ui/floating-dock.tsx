@@ -5,7 +5,7 @@
  **/
 "use client"
 import { cn } from "@/lib/utils";
-import { IconLayoutNavbarCollapse } from "@tabler/icons-react";
+import { IconMenu2 } from "@tabler/icons-react";
 import {
   AnimatePresence,
   MotionValue,
@@ -48,7 +48,7 @@ const FloatingDockMobile = ({
         {open && (
           <motion.div
             layoutId="nav"
-            className="absolute inset-x-0 bottom-full mb-2 flex flex-col gap-2"
+            className="absolute bottom-full right-0 mb-3 flex flex-col gap-3"
           >
             {items.map((item, idx) => (
               <motion.div
@@ -70,9 +70,9 @@ const FloatingDockMobile = ({
                 <a
                   href={item.href}
                   key={item.title}
-                  className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-900"
+                  className="flex h-12 w-12 items-center justify-center rounded-full bg-sky-600 transition-colors duration-200 hover:bg-sky-700 shadow-lg"
                 >
-                  <div className="h-4 w-4">{item.icon}</div>
+                  <div className="h-5 w-5 text-white">{item.icon}</div>
                 </a>
               </motion.div>
             ))}
@@ -81,9 +81,9 @@ const FloatingDockMobile = ({
       </AnimatePresence>
       <button
         onClick={() => setOpen(!open)}
-        className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-800"
+        className="flex h-12 w-12 items-center justify-center rounded-full bg-sky-600 transition-colors duration-200 hover:bg-sky-700 shadow-lg"
       >
-        <IconLayoutNavbarCollapse className="h-5 w-5 text-neutral-500 dark:text-neutral-400" />
+        <IconMenu2 className="h-6 w-6 text-white" />
       </button>
     </div>
   );

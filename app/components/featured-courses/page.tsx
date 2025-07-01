@@ -49,7 +49,7 @@ export default function FeaturedProjects() {
                   My <span className="text-sky-400">Projects</span>
                 </h1>
                 <div className="h-1 w-48 bg-sky-400 mx-auto rounded mb-6" />
-                <p className="text-gray-400 text-xl mb-8">Here are some projects that I&apos;ve built</p>
+                <p className="text-gray-400 text-xl mb-8">A glimpse into what I have crafted so far</p>
             </div>
             <div className="mt-16 w-full flex justify-center">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl w-full">
