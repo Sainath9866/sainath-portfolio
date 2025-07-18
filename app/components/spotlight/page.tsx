@@ -22,7 +22,7 @@ function SpotlightPreview() {
                    Passionate about building good and comprehensive web applications that aren&apos;t just functional, but delightful to use.
                 </p>
                 <div  className="mt-8 flex justify-center items-center">
-                    <a className="cursor-pointer " href="https://drive.google.com/file/d/1nVIkgoqbDcrt4egHT_Oq-OyQxAB-jMyX/view?usp=sharing">
+                    <a className="cursor-pointer " href="https://drive.google.com/file/d/1gNSmdWsocQ9mAn3xMOFoxvnmQ1hcaB6p/view?usp=sharing">
                     <MovingBorderDemo />
                     </a>
                     
