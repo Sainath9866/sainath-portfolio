@@ -67,7 +67,27 @@ const projects = [
       "Allows users to reveal hidden tweets with a single click"
     ],
     image: "public/Images/x-ex.png"
-  }
+  },
+  {
+  id: 5,
+  name: "Markdown Blog Platform",
+  liveLink: "https://markdown-blog-live.vercel.app/",
+  github: "https://github.com/Sainath9866/markdown-blog", 
+  techStack: {
+    frontend: "Next.js, Tailwind CSS, TypeScript",
+    backend: "Next.js (API routes), Prisma",
+    database: "NeonDB (PostgreSQL)"
+  },
+  description: "A markdown-based blogging platform with user authentication, post management, and social features.",
+  keyFeatures: [
+    "Google Sign-in and session management",
+    "Create, edit, and delete markdown blog posts",
+    "Like and comment on posts",
+    "User-specific post dashboard with responsive UI"
+  ],
+  image: "public/Images/md-blog.png" // Update path if different
+}
+
 ];
 
 export default projects; 
